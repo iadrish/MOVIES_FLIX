@@ -1,3 +1,19 @@
+#ScreenShots For Deployed Application
+
+![Trending Screenshot](https://github.com/iadrish/MOVIES_FLIX/assets/88700100/24839c7a-e78c-4c3e-92f0-7f92c2b27f6e)
+
+
+
+![Movies SS](https://github.com/iadrish/MOVIES_FLIX/assets/88700100/1da4029c-445e-43a1-888c-4cfe99bfd0c7)
+
+
+![SERIES SCREENSHOT](https://github.com/iadrish/MOVIES_FLIX/assets/88700100/0823fa1b-c38d-4b00-9cda-25eebdf3eb6a)
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
