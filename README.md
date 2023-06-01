@@ -31,7 +31,7 @@ A customised Frontend Movie  Application that is built using HTML, CSS, JAVASCRI
 
 | Parameter | Type     | Description                       |
 | :-------- | :------- | :-------------------------------- |
-| `api_key`      | `.env` | **Required**. 943b1e2a568055c49fbf196f1ba5f400  |
+| `api_key`      | `.env` | **Required**. 943b1e2a568055c49fbf196f1ba5####  |
 
 #### Get api call for All TV Series
 
@@ -41,7 +41,7 @@ A customised Frontend Movie  Application that is built using HTML, CSS, JAVASCRI
 
 | Parameter | Type     | Description                       |
 | :-------- | :------- | :-------------------------------- |
-| `api_key`      | `.env` | **Required**. 943b1e2a568055c49fbf196f1ba5f400  |
+| `api_key`      | `.env` | **Required**. 943b1e2a568055c49fbf196f1ba5####  |
 
 
 
