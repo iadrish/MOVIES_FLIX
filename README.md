@@ -1,18 +1,79 @@
-#ScreenShots For Deployed Application
+# MOVIES FLIX
 
-![Trending Screenshot](https://github.com/iadrish/MOVIES_FLIX/assets/88700100/24839c7a-e78c-4c3e-92f0-7f92c2b27f6e)
-
-
-
-![Movies SS](https://github.com/iadrish/MOVIES_FLIX/assets/88700100/1da4029c-445e-43a1-888c-4cfe99bfd0c7)
+A customised Frontend Movie  Application that is built using HTML, CSS, JAVASCRIPT , REACT JS, MATERIAL UI
 
 
-![SERIES SCREENSHOT](https://github.com/iadrish/MOVIES_FLIX/assets/88700100/0823fa1b-c38d-4b00-9cda-25eebdf3eb6a)
+## Acknowledgements
+
+ - [REACT DOCUMENTATION](https://legacy.reactjs.org/tutorial/tutorial.html)
+ - [MATERIAL UI](https://mui.com/material-ui/getting-started/overview/)
+ - [COLOR HUNT](https://colorhunt.co/)
+ - [JAVASCRIPT](https://www.w3schools.com/js/)
+
+
+## API Reference
+
+#### Get api call for Trending Movies 
+
+```http
+  GET https://api.themoviedb.org/3/discover/movie?api_key=${process.env.REACT_APP_API_KEY}&language=en-US&sort_by=popularity.desc&include_adult=false&include_video=false&page=${page}
+```
+
+| Parameter | Type     | Description                |
+| :-------- | :------- | :------------------------- |
+| `api_key` | `.env` | **Required**. 943b1e2a568055c49fbf196f1ba5####  |
+
+#### Get api call for All Movies
+
+```http
+  GET https://api.themoviedb.org/3/discover/movie?api_key=${process.env.REACT_APP_API_KEY}&language=en-US&sort_by=popularity.desc&include_adult=false&include_video=false&page=${page}
+```
+
+| Parameter | Type     | Description                       |
+| :-------- | :------- | :-------------------------------- |
+| `api_key`      | `.env` | **Required**. 943b1e2a568055c49fbf196f1ba5f400  |
+
+#### Get api call for All TV Series
+
+```http
+  GET https://api.themoviedb.org/3/discover/tv?api_key=${process.env.REACT_APP_API_KEY}&language=en-US&sort_by=popularity.desc&include_adult=false&include_video=false&page=${page}
+```
+
+| Parameter | Type     | Description                       |
+| :-------- | :------- | :-------------------------------- |
+| `api_key`      | `.env` | **Required**. 943b1e2a568055c49fbf196f1ba5f400  |
+
+
+
+
+## Authors
+
+- [@iadrish](https://github.com/iadrish)
+
+
+## Screenshots
+
+![Trending Screenshot](https://github.com/iadrish/MOVIES_FLIX/assets/88700100/8122e843-ca99-4678-b903-0a87b35380a9)
+
+
+
+
+![Movies SS](https://github.com/iadrish/MOVIES_FLIX/assets/88700100/245e4f82-041e-42f8-a5d1-5b92b781df9f)
 
 
 
 
 
+
+![SERIES SCREENSHOT](https://github.com/iadrish/MOVIES_FLIX/assets/88700100/4ad633af-6877-474d-b923-3cb8dde02a15)
+
+
+
+
+
+
+
+## Appendix
 
 # Getting Started with Create React App
 
@@ -82,5 +143,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/a
 This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
 ### `npm run build` fails to minify
-
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
